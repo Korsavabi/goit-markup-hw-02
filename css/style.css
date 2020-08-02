@@ -144,6 +144,7 @@ ul {
     padding: 10px 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
     height: 50px;
 
     color: #ffffff;
@@ -211,13 +212,13 @@ font-style: normal;
     flex-wrap: wrap;
 }
 .feature__block {
-    /* padding-left: 30px; */
     width: 270px;
     margin-bottom: 30px;
 }
 .feature__icon {
     background-color: #f5f4fa;
     border-radius: 4px;
+    padding: 25px 102.34px;
 }
 .feature__icon svg {
     padding: 25px 102px;
@@ -247,7 +248,7 @@ font-style: normal;
     color: #757575;
 }
 /* Чем мы занимаемся */
-.engage__title h2 {
+.engage__title{
     margin: auto;
 
     font-family: "Roboto Bold";
@@ -323,7 +324,7 @@ font-style: normal;
 .command__bg-color {
     background: #f5f4fa;
 }
-.command__title h2 {
+.command__title{
     font-family: "Roboto Bold";
     font-style: normal;
     font-weight: bold;
@@ -386,8 +387,8 @@ font-style: normal;
 }
 .team__icon {
     display: flex;
-    margin: 0 32px;
-    padding: 0;
+    /* margin: 0 32px; */
+    padding: 0 32px;
 }
 .team__icon li {
     text-align: center;
@@ -438,7 +439,7 @@ font-style: normal;
     background-color: #2196f3;
 }
 /* Постоянные клиенты */
-.clients__title h2 {
+.clients__title{
     font-family: "Roboto Bold";
     font-style: normal;
     font-weight: bold;
@@ -631,7 +632,7 @@ font-style: normal;
 }
 .btn__footer {
     position: absolute;
-    bottom: 112px;
+    bottom: 115px;
     right: 0;
     padding: 10px 29px;
 
