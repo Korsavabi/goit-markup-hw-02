@@ -43,9 +43,8 @@
     overflow: hidden;
     background: #ffffff;
     border: 1px solid #eeeeee;
-    box-sizing: border-box;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     margin-bottom: 30px;
+    position: relative;
 }
 .project__img {
     z-index: 1;
@@ -55,28 +54,44 @@
     height: 168px;
     padding: 63px 24px;
     margin: auto;
+    overflow: hidden;
     position: absolute;
-    transition: 2s;
+    vertical-align: top;
 
     z-index: 2;
 }
-.project__text-hover p {
+.project__text-hover{
     font-family: "Roboto Light";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 28px;
+    position: absolute;
+    z-index: 4;
+
+    overflow: hidden;
+    bottom: -100%;
+    background: rgba(33, 150, 243, 0.9);
+    transition-property: bottom;
+    transition-duration: .4s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.3s;
 
     letter-spacing: 0.03em;
-    display: none;
+    /* display: none; */
     margin: 0;
     color: #ffffff;
 }
-.project__block:hover .project__text-hover {
-    background: rgba(33, 150, 243, 0.9);
+.project__img{
+    position: relative;
+    overflow: hidden;
 }
-.project__block:hover .project__text-hover p {
-    display: block;
+.project__block:hover .project__text-hover{
+    bottom: 2%;
+}
+.project__block:hover{
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project__block-text {
     padding: 20px 24px;

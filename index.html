@@ -31,7 +31,20 @@
                 <div class="container">
                     <div class="header__block-text">
                         <h2>Эффективные решения <br> для вашего бизнеса</h2>
-                        <a href="#" class="btn order-service-btn">Заказать услугу</a>
+                        <a href="#" class="btn order-service-btn" data-modal-open>Заказать услугу</a>
+                    </div>
+                    <div class="backdrop is-hidden" data-modal>
+                       
+                       <div class="modal">
+                        <button class="btn-clouse" data-modal-close>x</button>
+                       <h2>Оставьте свои данные, мы вам перезвоним</h2>
+                       <i class="fas fa-user-alt user"></i>
+                       <input type="name" placeholder="Имя">
+                       <i class="fas fa-phone-alt user"></i>
+                       <input type="nubmer" placeholder="Телефон">
+                       <i class="fas fa-envelope"></i>
+                       <input type="email" placeholder="Почта">
+                       </div>
                     </div>
                 </div>
             </div>            
@@ -230,7 +243,6 @@
         </div>
     </div>
 </section>
-<!-- разобратся со сдвигом на иконках -->
 <!-- Постоянные клиенты -->
 <section>
     <div class="container">
@@ -367,6 +379,7 @@
 </div>
 </footer>
     <script src="js/all.js"></script>
+    <script src="js/modal.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
