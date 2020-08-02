@@ -261,6 +261,21 @@ ul {
     color: #ffffff;
     background: rgba(47, 48, 58, 0.8);
 }
+@media screen and (min-width: 750px) and (max-width: 1170px){
+    .engage__web-none{
+        display: none;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 1170px){
+    .engage__web-none{
+        display: none;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .engage__web-none{
+        display: none;
+    }
+}
 /* Наша команда */
 .command__bg-color {
     background: #f5f4fa;
