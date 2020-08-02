@@ -79,3 +79,13 @@
 		url('roboto/Roboto Italic/fonts/roboto_italic.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('roboto/Roboto Italic/fonts/roboto_italic.svg#roboto_italic') format('svg'); /* Chrome < 4, Legacy iOS */
 }
+/* Roboto Light */
+@font-face {
+	font-family: 'Roboto Light';
+	src: url('roboto/Roboto Light/fonts/roboto_light.eot'); /* IE 9 Compatibility Mode */
+	src: url('roboto/Roboto Light/fonts/roboto_light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('roboto/Roboto Light/fonts/roboto_light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('roboto/Roboto Light/fonts/roboto_light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('roboto/Roboto Light/fonts/roboto_light.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('roboto/Roboto Light/fonts/roboto_light.svg#roboto_light') format('svg'); /* Chrome < 4, Legacy iOS */
+}

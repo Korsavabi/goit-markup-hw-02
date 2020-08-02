@@ -14,7 +14,7 @@
             <h1 class="header__logo"><span>Web</span> Studio</h1>
             <nav class="header__menu">
                 <ul>
-                    <li><a href="#">Студия</a></li>
+                    <li><a href="index.html">Студия</a></li>
                     <li><a href="portfolio.html">Портфолио</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul>
@@ -31,7 +31,7 @@
                 <div class="container">
                     <div class="header__block-text">
                         <h2>Эффективные решения <br> для вашего бизнеса</h2>
-                        <a href="#" class="btn">Заказать услугу</a>
+                        <a href="#" class="btn order-service-btn">Заказать услугу</a>
                     </div>
                 </div>
             </div>            
@@ -167,7 +167,9 @@
             </div>
             <div class="team">
                 <div class="team__card">
-                    <img src="img/our-team/Nikolay-Kucherenko.jpg" alt="">
+                    <div class="team__photo">
+                        <img src="img/our-team/Nikolay-Kucherenko.jpg" alt="">
+                    </div>
                     <div class="team__card-box">
                         <h2 class="team__title">Николай Кучеренко</h2>
                         <p class="team__text">Product Designer</p>
@@ -180,7 +182,9 @@
                     </div>
                 </div>
                 <div class="team__card">
-                    <img src="img/our-team/Olga-Ivanova.jpg" alt="">
+                    <div class="team__photo">
+                        <img src="img/our-team/Olga-Ivanova.jpg" alt="">
+                    </div>
                     <div class="team__card-box">
                         <h2 class="team__title">Ольга Иванова</h2>
                         <p class="team__text">Frontend Developer</p>
@@ -193,7 +197,9 @@
                     </div>
                 </div>
                 <div class="team__card">
-                    <img src="img/our-team/Andrey-Shevchenko.jpg" alt="">
+                    <div class="team__photo">
+                        <img src="img/our-team/Andrey-Shevchenko.jpg" alt="">
+                    </div>
                     <div class="team__card-box">
                         <h2 class="team__title">Андрей Шевченко</h2>
                         <p class="team__text">Marketing</p>
@@ -206,7 +212,9 @@
                     </div>
                 </div>
                 <div class="team__card">
-                    <img src="img/our-team/Ivan-Nikolaev.jpg" alt="">
+                    <div class="team__photo">
+                        <img src="img/our-team/Ivan-Nikolaev.jpg" alt="">
+                    </div>
                     <div class="team__card-box">
                         <h2 class="team__title">Иван Николаев</h2>
                         <p class="team__text">UI Designer</p>
@@ -349,13 +357,16 @@
             </div>
             <div class="e-mail__input">
                 <h2>Подпишитесь на рассылку</h2>
-                <input type="email" placeholder=" E-mail">
+               <form action="handler.php">
+                <input type="email" name="email" placeholder=" E-mail">
                 <a href="#" class="btn__footer ">Подписаться <i class="fab fa-telegram-plane icon__telegram"></i></a>
+               </form>
             </div>
         </div>
     </div>
 </div>
 </footer>
     <script src="js/all.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
